@@ -15,6 +15,7 @@ export default {
 </script>
 <style lang="scss">
 .spinner {
+  background: #ffffff;
   position: absolute;
   top: 50%;
   left: 50%;

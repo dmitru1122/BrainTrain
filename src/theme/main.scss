@@ -5,7 +5,7 @@ body {
   height: 100%;
   font-family: "Peace Sanc";
   overflow-x: hidden;
-  @media screen and (max-width: $breakpoint-sm) {
+  @media screen and (max-width: $breakpoint-md) {
     font-size: 0.7rem;
   }
 }
@@ -20,7 +20,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: $ui-white;
   overflow: hidden;
 }
 
@@ -47,4 +46,25 @@ body {
   &-2rem {
     padding: 2 * $basic-margin;
   }
+}
+
+.desktop {
+  display: block;
+}
+
+.mobile {
+  display: none;
+}
+
+@media screen and (max-width: $breakpoint-md) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
+}
+
+.display_none {
+  display: none;
 }
