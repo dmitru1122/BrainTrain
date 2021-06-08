@@ -1,0 +1,49 @@
+@import '../../../theme/variables.scss';
+
+.footer {
+  position: relative;
+  margin-top: 24 * $basic-margin;
+  padding-bottom: 8 * $basic-margin;
+  height: 40 * $basic-margin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__logo {
+    width: 19 * $basic-margin;
+    &__image {
+      width: 100%;
+    }
+  }
+  &__description {
+    color: $ui-purple;
+  }
+
+  &__circle {
+    &__big {
+      width: 240 * $basic-margin;
+      bottom: -32 * $basic-margin;
+      right: -62 * $basic-margin;
+    }
+    &__sm {
+      width: 160 * $basic-margin;
+      bottom: -32 * $basic-margin;
+      right: 12 * $basic-margin;
+    }
+  }
+  @media screen and (max-width: $breakpoint-md) {
+    margin-top: 35 * $basic-margin;
+    &__circle {
+      &__big {
+        width: 200 * $basic-margin;
+        bottom: 0 * $basic-margin;
+        right: -80 * $basic-margin;
+      }
+      &__sm {
+        width: 140 * $basic-margin;
+        bottom: -15 * $basic-margin;
+        right: -24 * $basic-margin;
+      }
+    }
+  }
+}
