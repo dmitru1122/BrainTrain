@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- <Header  /> -->
+    <Header />
     <router-view />
     <!-- <Footer /> -->
   </div>
@@ -10,9 +10,12 @@
 // import { Component, Vue } from 'vue-property-decorator';
 
 // import Footer from '@/components/main-layout/footer/Footer.vue';
-// import Header from '@/components/main-layout/header/Header.vue';
+// import Header from "@/components/main-layout/header/Header.vue";
+
+import "../theme/main.scss";
 
 export default {
   name: "MainView",
+  components: {},
 };
 </script>
