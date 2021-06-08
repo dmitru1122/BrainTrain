@@ -31,7 +31,7 @@
           @click="showTest"
           class="setting__btn-show app-text app-text--uppercase"
         >
-          Показать
+          Проверить
         </button>
       </div>
     </section>
@@ -89,7 +89,6 @@
 
 <script src="./HomePage.js"></script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 @import "./HomePage.scss";
 </style>
