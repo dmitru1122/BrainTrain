@@ -78,9 +78,7 @@
       </section>
       <section v-if="isResponse.status" class="response">
         <h3 class="response__title app-text app-text--xxl app-text--green">
-          {{
-            isResponse.value ? "Поздравляю" : "Попробуйте еще раз пройти тест"
-          }}
+          {{ isResponse.value ? "Правильно" : "Неправильно" }}
         </h3>
       </section>
     </div>
