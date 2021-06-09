@@ -6,9 +6,6 @@ export default {
     Spinner: Spinner,
   },
 
-  props: {
-    msg: String,
-  },
   data() {
     return {
       isTestVisible: false,
