@@ -1,4 +1,6 @@
-# test-task
+# barintrain
+
+cd BrainTrain/
 
 ## Project setup
 
@@ -11,6 +13,9 @@ npm install
 ```
 npm run serve
 ```
+
+App running at:
+http://localhost:8080/
 
 ### Compiles and minifies for production
 
