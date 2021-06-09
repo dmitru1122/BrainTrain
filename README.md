@@ -1,4 +1,4 @@
-# barintrain
+# BrainTrain
 
 cd BrainTrain/
 
